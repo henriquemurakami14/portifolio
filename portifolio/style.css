@@ -1,0 +1,58 @@
+#meusprojetos {
+    text-align: center;
+    text-decoration: underline;
+}
+body {
+    background-color: #000000;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    background-color: #222222;
+    justify-content: center;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #169976;
+    padding: 10px;
+    display: block;
+    transition: all 0.5s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+
+}
+
+ul li a:hover {
+    background-color: #D4C9BE;
+    color: #222222;
+}
+
+h1 {
+    color: #1DCD9F;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    color: #1DCD9F;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.projetos {
+    color: #169976;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+strong {
+    color: #169976;
+}
+
+p {
+    color: white;
+}
