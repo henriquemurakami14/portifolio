@@ -1,21 +1,42 @@
-#meusprojetos {
-    text-align: center;
-    text-decoration: underline;
-}
 body {
-    background-color: #000000;
+    background-color: #000;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
 }
+
+h1 {
+    color: #1DCD9F;
+    font-size: 60px;
+    margin: 20px 0;
+    margin-left: 40px;
+}
+
+h2 {
+    color: #1DCD9F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+p {
+    color: #fff;
+}
+
+strong {
+    color: #169976;
+}
+
 ul {
     display: flex;
     flex-direction: row;
-
-    list-style-type: none;
-    background-color: #222222;
-    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #222;
 }
 
 ul li {
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 ul li a {
@@ -23,36 +44,58 @@ ul li a {
     color: #169976;
     padding: 10px;
     display: block;
-    transition: all 0.5s ease;
+    transition: background-color 0.3s, color 0.3s;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 200;
-
+    font-weight: 400;
 }
 
 ul li a:hover {
     background-color: #D4C9BE;
-    color: #222222;
+    color: #222;
+    border-radius: 5px;
 }
 
-h1 {
-    color: #1DCD9F;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h2 {
-    color: #1DCD9F;
-    font-size: 30px;
+
+
+#meusprojetos {
+    text-align: center;
+    text-transform: uppercase;
+    color: #054b38;
+    font-size: 80px;
+    margin: 40px 0 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.projetos {
-    color: #169976;
-    font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-strong {
-    color: #169976;
+
+#caixa {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    width: 800px;
+    border-radius: 10px;
 }
 
-p {
-    color: white;
+.projeto {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    color: #00ffa2;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    align-items: center;
+    text-align: center;
+}
+
+.projeto a.projetos {
+    color: #1DCD9F;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.projeto a.projetos:hover {
+    color: cyan;
 }
